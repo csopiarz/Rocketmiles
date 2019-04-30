@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[===== Test: Location Required Started =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Location Required Complete =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Location Search Started =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Location Search Complete =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Reward Program Required Started =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Reward Program Required Complete =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Reward Program Search Started =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Reward Program Search Complete =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Checkin Verification Started =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Checkin Verification Complete =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Checkout Verification Started =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Checkout Verification Complete =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Guests Verification Started =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Guests Verification Complete =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Room Verification Started =====]]>
+    </line>
+    <line>
+      <![CDATA[===== Test: Room Verification Complete =====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93785" started-at="2019-04-30T22:52:35Z" finished-at="2019-04-30T22:54:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93785" started-at="2019-04-30T22:52:35Z" finished-at="2019-04-30T22:54:09Z">
+      <class name="com.rocketmiles.search.SearchTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="initializeDriver" is-config="true" duration-ms="7148" started-at="2019-04-30T22:52:35Z" finished-at="2019-04-30T22:52:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="locationRequired()[pri:10, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="locationRequired" duration-ms="909" started-at="2019-04-30T22:52:43Z" finished-at="2019-04-30T22:52:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===== Test: Location Required Started =====]]>
+            </line>
+            <line>
+              <![CDATA[===== Test: Location Required Complete =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- locationRequired -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="tearDown" is-config="true" duration-ms="2693" started-at="2019-04-30T22:52:43Z" finished-at="2019-04-30T22:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="initializeDriver" is-config="true" duration-ms="6192" started-at="2019-04-30T22:52:46Z" finished-at="2019-04-30T22:52:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="locationVerification()[pri:20, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="locationVerification" duration-ms="3349" started-at="2019-04-30T22:52:52Z" finished-at="2019-04-30T22:52:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===== Test: Location Search Started =====]]>
+            </line>
+            <line>
+              <![CDATA[===== Test: Location Search Complete =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- locationVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="tearDown" is-config="true" duration-ms="2721" started-at="2019-04-30T22:52:56Z" finished-at="2019-04-30T22:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="initializeDriver" is-config="true" duration-ms="6343" started-at="2019-04-30T22:52:58Z" finished-at="2019-04-30T22:53:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="rewardProgramRequired()[pri:30, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="rewardProgramRequired" duration-ms="1051" started-at="2019-04-30T22:53:05Z" finished-at="2019-04-30T22:53:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===== Test: Reward Program Required Started =====]]>
+            </line>
+            <line>
+              <![CDATA[===== Test: Reward Program Required Complete =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- rewardProgramRequired -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="tearDown" is-config="true" duration-ms="2699" started-at="2019-04-30T22:53:06Z" finished-at="2019-04-30T22:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="initializeDriver" is-config="true" duration-ms="6470" started-at="2019-04-30T22:53:08Z" finished-at="2019-04-30T22:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="RewardProgramVerification()[pri:40, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="RewardProgramVerification" duration-ms="3257" started-at="2019-04-30T22:53:15Z" finished-at="2019-04-30T22:53:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===== Test: Reward Program Search Started =====]]>
+            </line>
+            <line>
+              <![CDATA[===== Test: Reward Program Search Complete =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RewardProgramVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="tearDown" is-config="true" duration-ms="2664" started-at="2019-04-30T22:53:18Z" finished-at="2019-04-30T22:53:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="initializeDriver" is-config="true" duration-ms="6622" started-at="2019-04-30T22:53:21Z" finished-at="2019-04-30T22:53:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="checkinVerification()[pri:50, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="checkinVerification" duration-ms="3205" started-at="2019-04-30T22:53:27Z" finished-at="2019-04-30T22:53:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===== Test: Checkin Verification Started =====]]>
+            </line>
+            <line>
+              <![CDATA[===== Test: Checkin Verification Complete =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkinVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="tearDown" is-config="true" duration-ms="2701" started-at="2019-04-30T22:53:31Z" finished-at="2019-04-30T22:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="initializeDriver" is-config="true" duration-ms="6309" started-at="2019-04-30T22:53:33Z" finished-at="2019-04-30T22:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="checkoutVerification()[pri:60, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="checkoutVerification" duration-ms="3494" started-at="2019-04-30T22:53:40Z" finished-at="2019-04-30T22:53:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===== Test: Checkout Verification Started =====]]>
+            </line>
+            <line>
+              <![CDATA[===== Test: Checkout Verification Complete =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="tearDown" is-config="true" duration-ms="2702" started-at="2019-04-30T22:53:43Z" finished-at="2019-04-30T22:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="initializeDriver" is-config="true" duration-ms="6657" started-at="2019-04-30T22:53:46Z" finished-at="2019-04-30T22:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="guestsVerification()[pri:70, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="guestsVerification" duration-ms="2378" started-at="2019-04-30T22:53:53Z" finished-at="2019-04-30T22:53:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===== Test: Guests Verification Started =====]]>
+            </line>
+            <line>
+              <![CDATA[===== Test: Guests Verification Complete =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- guestsVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="tearDown" is-config="true" duration-ms="2715" started-at="2019-04-30T22:53:55Z" finished-at="2019-04-30T22:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="initializeDriver" is-config="true" duration-ms="6574" started-at="2019-04-30T22:53:58Z" finished-at="2019-04-30T22:54:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="roomVerification()[pri:80, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="roomVerification" duration-ms="2182" started-at="2019-04-30T22:54:04Z" finished-at="2019-04-30T22:54:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[===== Test: Room Verification Started =====]]>
+            </line>
+            <line>
+              <![CDATA[===== Test: Room Verification Complete =====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- roomVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rocketmiles.search.SearchTest@2b98378d]" name="tearDown" is-config="true" duration-ms="2706" started-at="2019-04-30T22:54:06Z" finished-at="2019-04-30T22:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rocketmiles.search.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

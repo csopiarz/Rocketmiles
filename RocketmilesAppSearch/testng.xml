@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rocketmiles">
+  <test thread-count="5" name="Search">
+    <classes>
+      <class name="com.rocketmiles.search.BaseClass"/>
+      <class name="com.rocketmiles.search.SearchTest"/>
+    </classes>
+  </test> <!-- Search -->
+</suite> <!-- Rocketmiles -->
